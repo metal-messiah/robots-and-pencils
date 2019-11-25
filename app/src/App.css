@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+/* main content */
+.App {
+  background-image: url(./assets/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  padding: 10px 10px 50px;
+  min-height: 105vh;
+
+  overflow-y: scroll;
+}
+
+/* title */
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
+
+/* wrapper for the content rows */
+.container {
+  width: 100%;
+}
+
+/* scrollbar width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* scrollbar track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px #0c1029;
+}
+
+/* scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: #5fb4c9;
+}

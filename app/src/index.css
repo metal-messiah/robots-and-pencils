@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: 'Geomantist';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* importing custom font */
+@font-face {
+  font-family: 'Geomantist';
+  src: local('geomantist-regular-webfont'), url(./assets/fonts/geomanist-regular-webfont.woff) format('woff'),
+    url(./assets/fonts/geomanist-regular-webfont.svg) format('svg'),
+    url(./assets/fonts/geomanist-regular-webfont.ttf) format('ttf'),
+    url(./assets/fonts/geomanist-regular-webfont.eot) format('eot'),
+    url(./assets/fonts/geomanist-regular-webfont.woff2) format('woff2');
+}
