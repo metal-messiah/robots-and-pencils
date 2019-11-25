@@ -54,9 +54,8 @@ async function connectToDatabase(config) {
     RouterModule.init(app);
 
     // simple handler for SPA
-    if (isDev) {
-      const allowedExt = ['.js', '.ico', '.css', '.png', '.jpg', '.woff2', '.woff', '.ttf', '.svg'];
-      app.get('*', (req, res) => {
+    if (!isDev) {
+      -app.get('*', (req, res) => {
         res.sendFile(path.join(__dirname, './app/build/index.html'));
       });
     }
@@ -93,7 +92,7 @@ app.use((req, res, next) => {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-if (isDev) app.use(express.static(`${__dirname}/app/build`));
+if (!isDev) app.use(express.static(`${__dirname}/app/build`));
 
 http.listen(port, () => {
   console.log(`R-A-P Initialized!!! on port ${port}`);
