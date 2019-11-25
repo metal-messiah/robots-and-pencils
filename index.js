@@ -69,7 +69,8 @@ app.use((req, res, next) => {
     'http://localhost:3001',
     'http://127.0.0.1:3000',
     'http://localhost:3000',
-    'https://robots-n-pencils.herokuapp.com'
+    'https://robots-n-pencils.herokuapp.com',
+    'http://robots-n-pencils.herokuapp.com'
   ];
   try {
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With');
