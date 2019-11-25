@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.41dd2c47.chunk.css",
+    "main.js": "/static/js/main.5cad5043.chunk.js",
+    "main.js.map": "/static/js/main.5cad5043.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0cc5ba3c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0cc5ba3c.js.map",
+    "static/js/2.077a6023.chunk.js": "/static/js/2.077a6023.chunk.js",
+    "static/js/2.077a6023.chunk.js.map": "/static/js/2.077a6023.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e8271bdcc3b52948af61a77a0e1c4936.js": "/precache-manifest.e8271bdcc3b52948af61a77a0e1c4936.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.41dd2c47.chunk.css.map": "/static/css/main.41dd2c47.chunk.css.map",
+    "static/media/App.css": "/static/media/background.2f525e7a.jpg",
+    "static/media/index.css": "/static/media/geomanist-regular-webfont.deb2e275.woff",
+    "static/media/link.svg": "/static/media/link.0ef6006d.svg",
+    "static/media/refresh.svg": "/static/media/refresh.a297dbf4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cc5ba3c.js",
+    "static/js/2.077a6023.chunk.js",
+    "static/css/main.41dd2c47.chunk.css",
+    "static/js/main.5cad5043.chunk.js"
+  ]
+}

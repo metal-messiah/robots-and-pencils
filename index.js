@@ -55,7 +55,7 @@ async function connectToDatabase(config) {
 
     // simple handler for SPA
     if (!isDev) {
-      -app.get('*', (req, res) => {
+      app.get('*', (req, res) => {
         res.sendFile(path.join(__dirname, './app/build/index.html'));
       });
     }
